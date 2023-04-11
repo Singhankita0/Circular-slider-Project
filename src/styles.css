@@ -1,0 +1,46 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    float: left;
+    position: relative;
+  }
+  
+  #inner-circle {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    background-image: none;
+    background: white;
+  }
+  
+  #slider-one,
+  #slider-two {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    left: 50%;
+    top: 50%;
+    background: red;
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+    cursor: pointer;
+  }
+  
