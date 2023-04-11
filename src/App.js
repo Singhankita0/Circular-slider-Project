@@ -1,10 +1,10 @@
 import React from "react";
-import SliderContent from "./SliderContent";
+import { Slider } from "./Slider";
 
 const App = () => {
   return (
     <>
-      <SliderContent />
+      <Slider />
     </>
   );
 };
